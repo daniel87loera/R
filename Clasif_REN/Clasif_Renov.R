@@ -35,4 +35,15 @@ x <- 100 * sum(diag(mc)) / sum(mc)
 #Agregar Columna de Prediccion a la tabla ABA.test
 ABA.test$PrediClas <- r
 ABA.test$PClas <- results2
-write.csv(ABA.test, "Clas_Renov.csv")
+
+#########################################################################
+####################### OBTENER RENOVACION POR PRODUCTO #################
+#########################################################################
+
+#df <- data.frame(ABA.test$Producto , r)
+#write.csv(df,"Sumatoria.csv")
+
+
+
+
+
