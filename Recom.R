@@ -1,4 +1,3 @@
-
 # Eighth code snippet
 installations <- (Recom)
 class(Recom)
