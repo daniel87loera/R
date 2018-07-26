@@ -40,9 +40,10 @@ ABA.test$PClas <- results2
 ####################### OBTENER RENOVACION POR PRODUCTO #################
 #########################################################################
 
-#df <- data.frame(ABA.test$Producto , r)
-#write.csv(df,"Sumatoria.csv")
+df <- data.frame(r)
+df <- data.frame()
 
+ABA.test$Producto[-1]+ y[-length(y)]
 
 
 
